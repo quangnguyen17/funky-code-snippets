@@ -16,4 +16,3 @@ func fib(of num: Int) -> Int {
 print(factorial(of: 6))
 print(fib(of: 6))
 
-
