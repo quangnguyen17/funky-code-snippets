@@ -6,12 +6,8 @@
 //
 
 var str = "BinarySearch-Examples"
-var zeroToAHundred = [Int]()
+var zeroToAHundred =  (0...100).map{ $0 }
 
-(0...100).forEach{ zeroToAHundred.append($0) }
-
-// Binary Search
-// Function returns its search value if it exists, otherwise returns -1
 func searchFor(value: Int, in numArray: [Int]) -> Int {
     var leftIndex = 0
     var rightIndex = numArray.count - 1
@@ -21,7 +17,7 @@ func searchFor(value: Int, in numArray: [Int]) -> Int {
         let middleValue = numArray[middleIndex]
         
         if middleValue == value {
-            return middleValue
+            return middleValue // return the value found
         } else if value < middleValue {
             rightIndex = middleIndex - 1
         } else if value > middleValue {
@@ -29,9 +25,8 @@ func searchFor(value: Int, in numArray: [Int]) -> Int {
         }
     }
     
-    return -1
+    return -1 // means no value found
 }
 
-// Applied BinarySearch
 print(searchFor(value: 23, in: zeroToAHundred))
 
