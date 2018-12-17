@@ -1,12 +1,11 @@
 //
 // BinarySearch-Practices
 //
-// Created by Quang Nguyen on 11/24/18.
-// Copyright © 2018 Quang Nguyen. All rights reserved.
+//  Created by Quang Nguyen on 11/24/18.
+//  Copyright © 2018 Quang Nguyen. All rights reserved.
 //
 
-var str = "BinarySearch-Examples"
-var zeroToAHundred =  (0...100).map{ $0 }
+let zeroToAHundred =  (0...100).map{ $0 }
 
 func searchFor(value: Int, in numArray: [Int]) -> Int {
     var leftIndex = 0
