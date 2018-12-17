@@ -1,8 +1,8 @@
 //
 // BinarySearch-Practices
 //
-//  Created by Quang Nguyen on 11/24/18.
-//  Copyright © 2018 Quang Nguyen. All rights reserved.
+// Created by Quang Nguyen on 11/24/18.
+// Copyright © 2018 Quang Nguyen. All rights reserved.
 //
 
 var str = "BinarySearch-Examples"
