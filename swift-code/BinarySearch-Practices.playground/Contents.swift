@@ -17,7 +17,7 @@ func searchFor(value: Int, in numArray: [Int]) -> Int {
         let middleValue = numArray[middleIndex]
         
         if middleValue == value {
-            return middleValue // return the value found
+            return middleValue // returns the value found
         } else if value < middleValue {
             rightIndex = middleIndex - 1
         } else if value > middleValue {
